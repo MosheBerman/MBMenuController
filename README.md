@@ -3,8 +3,9 @@ MBMenuController
 
 MBMenuController is similar to UIActionSheet. It's something I rolled for a client project, although it has a few rough edges.
 
-![Before](./demo-screenshots/before.png)
-![After](./demo-screenshots/after.png)
+![Before](./demo-screenshots/before.png "What does this button do?")
+![After](./demo-screenshots/after.png "It shows a menu, apparently.")
+![Delegate](./demo-screenshots/delegate.png "See below for handling taps via a delegate.")
 
 Dependencies:
 ============
