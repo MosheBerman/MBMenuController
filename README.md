@@ -56,10 +56,8 @@ Dismissing the Menu:
      /*
      
      Dismissing the menu is really simple.
-     Just use this one liner
-     
-     - (void) hide;
-     
+     Just use this one liner:
+
      */
 
      [menu hide];
@@ -70,8 +68,7 @@ Optional API:
 
 **Background Color:** You can set the color of the MBButtonMenuViewController by calling `setBackgroundColor:` and passing in a UIColor. This color is also used for the cancel button text.
 
-**Cancel Button Index:** You can tell the MBButtonMenuViewController which button to treat as the cancel button by passing an NSUInteger to `setCancelButtonIndex:`. If the index is out of range, nothing happens.
-
+**Cancel Button Index:** You can tell the MBButtonMenuViewController which button to treat as the cancel button by passing an NSUInteger to `setCancelButtonIndex:`. If the index is out of range, nothing happens. Passing an index that is between zero and the bounds of the button titles array will cause the index to be set and the menu to update.
 
 How it works:
 =============
