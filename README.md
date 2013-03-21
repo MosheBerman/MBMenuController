@@ -81,3 +81,8 @@ You initialize MBButtonMenuViewController with an array of button titles, but yo
 To handle tap events, MBButtonMenuViewController employs a simple delegate, which contains two methods, as described above. 
 
 When it is shown, the menu causes the "parent" view to shrink. To achieve this, MBButtonMenuController applies a transform to the view it's being shown "in" and installs itself above the target view, to provide the intended effect.
+
+License:
+=======
+
+As-is, at your own risk.
