@@ -46,9 +46,7 @@
         
         NSArray *titles = @[@"Red",
                             @"Yellow",
-                            @"Green",
                             @"Blue",
-                            @"Orange",
                             @"Cancel"];
         _menu = [[MBButtonMenuViewController alloc] initWithButtonTitles:titles];
         [_menu setDelegate:self];
