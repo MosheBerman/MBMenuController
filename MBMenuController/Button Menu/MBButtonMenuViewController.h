@@ -15,7 +15,7 @@
 @property (nonatomic, readonly, getter = isVisible) BOOL visible;
 @property (nonatomic, assign) BOOL shrinksParentView;
 
-@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *backgroundColor UI_APPEARANCE_SELECTOR;
 
 @property (nonatomic, strong) NSArray *buttonTitles;
 @property (nonatomic, assign) NSInteger cancelButtonIndex;
