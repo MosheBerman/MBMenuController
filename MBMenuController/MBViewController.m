@@ -8,11 +8,11 @@
 
 #import "MBViewController.h"
 
-#import "MBButtonMenuViewController.h"
+#import "MBMenuController.h"
 
 @interface MBViewController () <MBButtonMenuViewControllerDelegate>
 
-@property (nonatomic, strong) MBButtonMenuViewController *menu;
+@property (nonatomic, strong) MBMenuController *menu;
 
 @end
 
@@ -48,7 +48,7 @@
                             @"Yellow",
                             @"Blue",
                             @"Cancel"];
-        _menu = [[MBButtonMenuViewController alloc] initWithButtonTitles:titles];
+        _menu = [[MBMenuController alloc] initWithButtonTitles:titles];
         [_menu setDelegate:self];
         [_menu setCancelButtonIndex:[[_menu buttonTitles]count]-1];
     }
@@ -58,7 +58,7 @@
 
 #pragma mark - MBButtonMenuViewControllerDelegate
 
-- (void)buttonMenuViewController:(MBButtonMenuViewController *)buttonMenu buttonTappedAtIndex:(NSUInteger)index
+- (void)buttonMenuViewController:(MBMenuController *)buttonMenu buttonTappedAtIndex:(NSUInteger)index
 {
     //
     //  Hide the menu
@@ -87,7 +87,7 @@
     [alert show];
 }
 
-- (void)buttonMenuViewControllerDidCancel:(MBButtonMenuViewController *)buttonMenu
+- (void)buttonMenuViewControllerDidCancel:(MBMenuController *)buttonMenu
 {
     [buttonMenu hide];
 }
