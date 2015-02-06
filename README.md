@@ -8,10 +8,16 @@ MBMenuController is similar to UIActionSheet. It's something I rolled for a proj
 
 ![Promo](./Promo.png "MBMenuController Demo")
 
-Relevant Files:
+Getting Started:
 ---------------
 
-`MBMenuController.h/m` (The delegate protocol is declared in the header.)
+**With CocoaPods:**
+
+`pod 'MBMenuController', '~>2.0.1'
+
+**Without CocoaPods:**
+
+Grab `MBMenuController.h/m` from `MBMenuController/Button Menu/` and add them to your project. (The delegate protocol is declared in the header.)
 
 Dependencies:
 -------------
