@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MBMenuController"
-  s.version      = "2.0.2"
+  s.version      = "2.0.3"
   s.summary      = "A custom action sheet for iOS."
   s.description  = <<-DESC
 	MBMenuController is similar to UIActionSheet. It's something I rolled for a client project, although it has a few rough edges. 
