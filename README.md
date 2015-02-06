@@ -13,7 +13,7 @@ Getting Started:
 
 **With CocoaPods:**
 
-`pod 'MBMenuController', '~>2.0.1'
+`pod 'MBMenuController', '~>2.0.2'
 
 **Without CocoaPods:**
 
