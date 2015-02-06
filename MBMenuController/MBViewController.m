@@ -10,7 +10,7 @@
 
 #import "MBMenuController.h"
 
-@interface MBViewController () <MBButtonMenuViewControllerDelegate>
+@interface MBViewController () <MBMenuControllerDelegate>
 
 @property (nonatomic, strong) MBMenuController *menu;
 

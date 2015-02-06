@@ -20,7 +20,7 @@
 @property (nonatomic, strong) NSArray *buttonTitles;
 @property (nonatomic, assign) NSInteger cancelButtonIndex;
 
-@property (nonatomic, assign) id<MBButtonMenuViewControllerDelegate> delegate;
+@property (nonatomic, assign) id<MBMenuControllerDelegate> delegate;
 
 
 - (id)initWithButtonTitles:(NSArray *) buttonTitles;
@@ -30,7 +30,7 @@
 
 @end
 
-@protocol MBBMenuControllerDelegate <NSObject>
+@protocol MBMenuControllerDelegate <NSObject>
 
 - (void) buttonMenuViewController:(MBMenuController *)buttonMenu buttonTappedAtIndex:(NSUInteger)index;
 - (void) buttonMenuViewControllerDidCancel:(MBMenuController *)buttonMenu;

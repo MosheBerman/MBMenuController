@@ -211,8 +211,8 @@
     
     if (index == _cancelButtonIndex) {
         
-        if([[self delegate] respondsToSelector:@selector(buttonMenuViewControllerDidCancel:)]){
-            [[self delegate] buttonMenuViewControllerDidCancel:self];
+        if([self.delegate respondsToSelector:@selector(buttonMenuViewControllerDidCancel:)]){
+            [self.delegate buttonMenuViewControllerDidCancel:self];
         }
         
         return;
